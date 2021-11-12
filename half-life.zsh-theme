@@ -10,7 +10,7 @@
 #use extended color palette if available
 if [[ $TERM = (*256color|*rxvt*) ]]; then
   turquoise="%{${(%):-"%F{81}"}%}"
-  orange="%{${(%):-"%F{11}"}%}"
+  orange="%{${(%):-"%F{179}"}%}"
   purple="%{${(%):-"%F{141}"}%}"
   hotpink="%{${(%):-"%F{167}"}%}"
   limegreen="%{${(%):-"%F{120}"}%}"
